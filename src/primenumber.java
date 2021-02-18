@@ -2,12 +2,12 @@
 public class primenumber {
     public static void main(String[] args) {
 
-        // Klavyeden okuma yapmak için Scanner nesnesini oluştur.
+       // Create Scanner object to read from the keyboard.
         Scanner reader = new Scanner(System.in);
 
         System.out.print("Bir Sayı Girin: ");
 
-        // nextInt() metodu ile tam sayı türünde değer okuması yapılır.
+       // NextInt () method is used to read integer type values.
         int n = reader.nextInt();
 
         int toplam = 0;
@@ -18,6 +18,6 @@ public class primenumber {
                 //System.out.println(i);
             }
         }
-        System.out.println("Tek Sayıların Toplamı = "+ toplam);
+        System.out.println("Sum of Odd Numbers = "+ toplam);
     }
 }
